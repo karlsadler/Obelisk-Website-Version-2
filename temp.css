@@ -1,0 +1,122 @@
+body {
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    background: -webkit-linear-gradient(right, rgba(156,250,180,1), rgba(255,255,255,.4));
+
+    background: -moz-linear-gradient(right, rgba(156,250,180,1), rgba(255,255,255,.4));
+    margin: 0 auto;
+}
+p{
+    font-size: 26px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+a{
+    color: black;   
+}
+
+
+#menu{
+	width:396px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin:0 auto;
+}
+    
+
+#menu li{
+	float:left;  /*--- Make the list go horizontal ---*/
+	margin:0 auto;
+}
+
+#menu li a{
+	display:block;  /*--- Make the entire button are clickable rather than the text alone ---*/
+	text-indent: -9999px; /*--- Push the text off screen to hide text---*/
+	overflow: hidden; /*--- Makes text outside of bounding box hidden ---*/
+	height:45px;
+
+}
+
+#menu li#home a{
+	background: url(img/obelisk.gif) no-repeat;
+	width:88px;
+}
+
+#menu li#about a{
+	background: url(img/about.gif) no-repeat;	
+	width:80px;
+
+}
+
+#menu li#projects a{
+	background: url(img/projects.gif) no-repeat;
+	width:94px;
+}
+
+#menu li#contact a{
+	background: url(img/contact.gif) no-repeat;	
+	width:106px;
+
+}
+      
+.client{
+    float:left;
+}
+      
+video{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+      
+
+      
+     #footer {
+          background: black;
+          text-align: right;
+          font-size: 20px;     
+      }      
+      
+      #footer a {
+          color: white;
+      }
+      
+@media(max-width: 500px){
+   p{
+    font-size: 15px; 
+   margin-top: -35px;
+   padding: 30px;
+   line-height: 25px;
+   }   
+    img{
+     margin-top: -80px;   
+        width: 50%;
+    }
+}
+      .logo{
+       margin-top: 70px;   
+      }
+      
+      .video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 0; /* IE6 workaround*/
+    height: 0;
+          margin-top: 50px;
+    overflow: hidden;
+}
+      .video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+      
+      
+      
+      
